@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Schibsted+Grotesk&display=swap');
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: chocolate;
+    font-family: 'Poppins', sans-serif;
+}
+.button-19 {
+right: 0;
+  appearance: button;
+  background-color: rgb(179, 89, 26);
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 2px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 4px 6px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: rgb(249, 108, 8);
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+    border: solid chocolate 5px;
+    border-radius: 50%;
+}
+.dataLine{
+    width: 70%;
+    height: 20%;
+    margin: 1% auto;
+    text-align: left;
+    padding: 1% 2%;
+    font-weight: bolder;
+    background: rgba( 255, 255, 255, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: black;
+}
+th{
+    color: chocolate;
+    font-size: x-large;
+    font-weight: bolder;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    img{
+        width: 50%;
+        height: 50%;
+    }
+    .dataLine{
+        width: 90%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+}
